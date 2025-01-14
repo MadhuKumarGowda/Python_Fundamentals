@@ -28,5 +28,17 @@ elif a < c:
     print("a is bigger")
 else:
     print("a is lesser")
+    
+# Chained Conditions
+x = 2
+y = 3
+z = 5
+
+if x > y and x > z:
+    print("X is Greater")
+elif y > x and y > z:
+    print("Y is greater")
+else:
+    print("Z is greater")
 
 
