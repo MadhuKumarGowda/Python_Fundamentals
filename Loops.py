@@ -1,6 +1,6 @@
 # Demonstrate about loops and its syntax
 
-# Below loop will print the output from 0 to 9
+# Below for loop will print the output from 0 to 9
 # by default increment value is 1
 print("--------------------")
 for x in range(0,10):
@@ -17,3 +17,14 @@ print("--------------------")
 for x in range(0,10,3): # 0 is the start, 10 is the target, and 3 is increment 
     print(x)
 print("--------------------")
+
+
+# While Loops
+loop = True
+
+while loop:
+    name = input("Enter something")
+    if name == "stop" or name == "Stop":
+        loop = False # or we can use break key word
+print("Program stopped")
+        
