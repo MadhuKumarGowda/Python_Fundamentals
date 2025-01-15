@@ -1,4 +1,2 @@
-Hello
-How are you?
-i am Madhu from
-Python
+Now the file has one more line!
+learning write into file
