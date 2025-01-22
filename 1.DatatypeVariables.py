@@ -2,15 +2,15 @@
 
 # Below are basic data types
 int # numbers examples 0 1 3 5 6
-str # with in 'Pyhton' / "Python"
+str # with in 'Python' / "Python"
 bool # True / False
 float # 0.12 1.23 3.455
 
-# Decalring varibales 
-name = "Pyhton"
-newName = 'Pyhton'
+# Declaring variables 
+name = "Python"
+newName = 'Python'
 
-# access the above varibales
+# access the above variables
 print(name)
 print(newName) 
 
@@ -18,11 +18,11 @@ name = "Welcome to Python"
 print(name)
 
 # Rules for variables
-# Only contains _ , chartacters and numbers
-# Shouldnot start with number, but can be ended with numbers
+# Only contains _ , characters and numbers
+# shouldn't start with number, but can be ended with numbers
 
 NAME = "Hello"
 name = "Python"
 
-# Above 2 variables are different as Python is case sentsitive 
+# Above 2 variables are different as Python is case sensitive 
 age = 17

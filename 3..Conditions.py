@@ -2,7 +2,7 @@
 
 # < 
 # >
-# == Note : we must use == for equal comparision, we can't use = as its decalration operator
+# == Note : we must use == for equal comparison, we can't use = as its declaration operator
 # !=
 
 print (2 < 3)
