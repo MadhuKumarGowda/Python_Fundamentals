@@ -20,11 +20,32 @@ print("--------------------")
 
 
 # While Loops
-loop = True
+# loop = True
 
-while loop:
-    name = input("Enter something")
-    if name == "stop" or name == "Stop":
-        loop = False # or we can use break key word
-print("Program stopped")
-        
+# while loop:
+#     name = input("Enter something")
+#     if name == "stop" or name == "Stop":
+#         loop = False # or we can use break key word
+# print("Program stopped")
+
+# break with loop
+value = 1
+while value <= 10:
+    print(value)
+    if value ==5:
+        break
+    value += 1
+
+print("---------------------------")
+# continue with loop
+value1 = 1
+while value1 <= 10:    
+    value1 += 1
+    if value1 % 2 == 0:
+        continue
+    print(value1)
+else:
+    print(value1) 
+
+# For Loops  
+    
