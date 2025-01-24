@@ -23,7 +23,7 @@ print("mul" , num1 * num2)
 
 # few more operators
 # ** exponent 
-# // interger division, return only inter and not reminder
+# // integer division, return only inter and not reminder
 # % return reminder
 print(3**3) # output is 3 * 3 * 3
 print (75 // 10 )
@@ -38,6 +38,9 @@ anothernumber = input()
 print("anothernumber is a ", type(anothernumber))
 
 # Note: all the input will be string ata type by default
-# we need to convert before perform any matematical operation
+# we need to convert before perform any mathematical operation
 SUM = (int(number) + int(anothernumber))
 print("Sum is", SUM)
+
+
+
