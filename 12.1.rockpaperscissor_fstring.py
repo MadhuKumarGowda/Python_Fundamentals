@@ -38,9 +38,9 @@ def rps():
         print(f"\nYou chose: {str(RPS(player)).replace("RPS.", "").title()} .")
         print(f"\nPython chose: {str(RPS(machineChoice)).replace("RPS.", "").title()}.")
         print("\n")
-        print(f"Result of this game is{game_result}\n")
+        print(f"Result of this game is\n")
 
-        def decide_winner(player,machine):
+        def decide_winner(player,machineChoice):
             nonlocal player_wins
             nonlocal python_wins
             if player == 1 and machineChoice == 3:
