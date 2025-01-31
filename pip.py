@@ -16,6 +16,7 @@
 # https://pypi.org/ is the place where we can know more about all python packages
 # Below command will create txt file with list of all packages / its just like package json in node js
 # pip freeze > requirements.txt
+# To install packages from requirements.txt : pip install -r requirements.txt
 
  
 
